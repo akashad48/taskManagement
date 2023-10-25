@@ -1,0 +1,24 @@
+create database taskmanager;
+
+CREATE TABLE Users (
+    Userid int NOT NULL AUTO_INCREMENT,
+    email varchar(255) NOT NULL,
+    password varchar(255) ,
+    role varchar(20),
+    PRIMARY KEY (Userid)
+);
+
+CREATE TABLE Tasks (
+    Taskid int NOT NULL AUTO_INCREMENT,
+    Type varchar(100) ,
+    title varchar(100),
+    discription varchar(255),
+    status Boolean default '0',
+    assignedTo varchar(255),
+    assignedBy varchar(255),
+    date DATETIME,
+    PRIMARY KEY (Taskid),
+    FOREIGN KEY (userid) references Users(Userid)
+);
+
+ 

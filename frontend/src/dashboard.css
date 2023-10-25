@@ -1,0 +1,29 @@
+.dashboard-option {
+    width: 100px; /* Adjust the width as needed to make them square-shaped */
+    height: 100px; /* Make the height the same as the width for square shape */
+    background-color: #3498db;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    margin-top: 35px;
+    align-items: center;
+    
+}
+
+.task-section {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 35vh; /* Center the content vertically */
+}

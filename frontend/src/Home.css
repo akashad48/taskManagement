@@ -1,0 +1,31 @@
+.home{
+    width: 90%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(./images-icons/home.jpg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    background-size: cover;
+    margin: auto;
+}
+.div{
+    margin-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.transparent-button {
+    background: transparent;
+    border: 1px solid #fff; 
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .transparent-button:hover {
+    background: #fff;
+    color: #000;
+  }
+  

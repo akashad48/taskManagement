@@ -1,0 +1,9 @@
+{
+    "PORT": 7072,
+    "dbSettings": {
+                    "host":"localhost",
+                    "user":"root",
+                    "password": "sunbeam",
+                    "database":"taskmanager"
+                   }
+}
